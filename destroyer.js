@@ -1,9 +1,9 @@
 function destroyer(arr) {
 
- var args = Array.from(arguments).slice(1);
-  return arr.filter(function(num){
-    return !args.includes(num);// if num is not in args, return those
-  });
+    var args = Array.from(arguments).slice(1);
+    return arr.filter(function (num) {
+        return !args.includes(num);// if num is not in args, return those
+    });
 
 }
 

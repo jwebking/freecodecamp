@@ -5,8 +5,8 @@ function mutation(arr) {
 
     return one.every(function (letter) {
         return zero.indexOf(letter) !== -1;
-         //indexOf returns the first index of where a letter is, or -1 if it's not found, 
-         //that's why you have to use that rather than true/false
+        //indexOf returns the first index of where a letter is, or -1 if it's not found, 
+        //that's why you have to use that rather than true/false
     });
 }
 
